@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct DragGestureVista: View {
-    
     @State var position: CGSize = .zero
     
     var body: some View {

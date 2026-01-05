@@ -10,7 +10,6 @@ import Combine
 
 final class ViewModelEnvironmentObject: ObservableObject {
     @Published var counter = 0
-    
 }
 
 struct EnvironmentObjectVista: View {
@@ -37,7 +36,6 @@ struct EnvironmentObjectVista: View {
         .environmentObject(viewModel)
     }
 }
-
 
 struct Vista2: View {
     var body: some View {

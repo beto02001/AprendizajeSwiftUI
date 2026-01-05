@@ -27,7 +27,6 @@ struct CounterView: View {
      └── @State counter
           └── $counter → CounterView
                          └── @Binding counter
-
      */
     @Binding var counter: Int
     var body: some View {

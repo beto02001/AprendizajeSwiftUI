@@ -9,9 +9,8 @@ import SwiftUI
 
 struct LazyVGridVista: View {
     var body: some View {
-        
-        var elements = 1...500
-        var gridItems: [GridItem] = [GridItem(.fixed(100)),
+        let elements = 1...500
+        let gridItems: [GridItem] = [GridItem(.fixed(100)),
                                      GridItem(.adaptive(minimum: 30)),
                                      GridItem(.fixed(100))]
         ScrollView {

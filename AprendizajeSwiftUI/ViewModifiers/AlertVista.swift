@@ -29,8 +29,6 @@ struct AlertVista: View {
         } message: {
             Text("Mensaje de la alerta")
         }
-
-        
     }
 }
 

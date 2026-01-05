@@ -10,7 +10,7 @@ import SwiftUI
 struct TextVista: View {
     var body: some View {
         VStack {
-            Text("Este es un mensaje largo para poder representar cambios y manejo de texto que podria ser complicado")
+            Text("Este es un mensaje largo para poder representar cambios y manejo de texto")
                 .font(.largeTitle)
                 .underline()
                 .rotation3DEffect(.degrees(30), axis: (x: 1, y: 0, z: 0))

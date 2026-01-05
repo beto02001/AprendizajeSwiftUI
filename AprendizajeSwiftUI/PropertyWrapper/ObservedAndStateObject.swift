@@ -39,7 +39,6 @@ struct ListAprendizajeSwift: View {
         NavigationView {
             List(cursosViewModel.cursosModel, id: \.self) { curso in
                 Text(curso)
-                
             }
             .navigationBarItems(leading: Button("Añadir", action: { cursosViewModel.addMore() }))
             .navigationTitle(Text("Observables y StateObjects"))

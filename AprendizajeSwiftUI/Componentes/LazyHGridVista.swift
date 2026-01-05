@@ -10,7 +10,9 @@ import SwiftUI
 struct LazyHGridVista: View {
     var body: some View {
         let items = 1...500
-        let rows: [GridItem] = [.init(.fixed(100)), .init(.flexible(minimum: 10, maximum: 70)), .init(.fixed(100))]
+        let rows: [GridItem] = [.init(.fixed(100)),
+                                .init(.flexible(minimum: 10, maximum: 70)),
+                                .init(.fixed(100))]
         ScrollView(.horizontal) {
             LazyHGrid(rows: rows) {
                 ForEach(items, id: \.self) { element in

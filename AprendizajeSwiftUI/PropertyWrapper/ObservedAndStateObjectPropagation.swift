@@ -10,7 +10,6 @@ import Combine
 
 final class ViewModel: ObservableObject {
     @Published var counter = 0
-    
 }
 
 struct ObservedAndStateObjectPropagation: View {
